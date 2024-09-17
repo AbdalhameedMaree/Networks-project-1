@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('Images/Background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #00ffff;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  max-width: 1000px;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 35%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 10px;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.box:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+img {
+  width: 100%;
+  max-width: 300px; 
+  height: 300px; 
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  border: 2px solid #00ffff;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #00ffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.red-text {
+  color: red;
+}
+
+.pink-text {
+  color: #ba005d;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.links a {
+  color: #00ffff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
